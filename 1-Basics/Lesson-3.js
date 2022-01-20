@@ -1,5 +1,9 @@
-//Lesson-3 Statements
+// Lesson-3 Statements
 
-console.log('Robert');
-console.log('Stannis');
-console.log('Renly');
+// Можно сделать так
+console.log('Mother of Dragons.');
+console.log('Dracarys!');
+
+// Но так будет более правильно и красиво
+// \n переносит значение на следующую строку
+console.log('\nRobert\nStannis\nRenly')
