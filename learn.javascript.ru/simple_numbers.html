@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        let n = 10;
+        nextPrime:
+            for (let i = 2; i <= n; i++) { // все i
+            for (let j = 2; j < i; j++) { // проверка
+            if (i % j == 0) continue nextPrime; // если не подходит, то берём следующее
+            }
+            alert( i ); // простое число
+            }
+    </script>
+</body>
+</html>
